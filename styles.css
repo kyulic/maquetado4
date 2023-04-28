@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;1,400;1,500;1,700&family=Fraunces:wght@700&family=Lexend+Deca:wght@400;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Overpass:ital,wght@0,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+   
+
+}
+
+:root{
+    
+--Orange: hsl(25, 97%, 53%);
+
+--White: hsl(0, 0%, 100%);
+--LightGrey: hsl(217, 12%, 63%);
+--MediumGrey: hsl(216, 12%, 54%);
+--DarkBlue: hsl(213, 19%, 18%);
+--DarkBlue_: hsl(213, 19%, 22%);
+--VeryDarkBlue: hsl(216, 12%, 8%);
+
+}
+
+.container{
+    background-color: var(--VeryDarkBlue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.boxs{
+    content: flex;
+    background-color: var(--DarkBlue);
+    color: var(--White);
+    width: 500px;
+    border-radius: 1rem;
+    margin: auto;
+}
+.other_box{
+    display: none;
+}
+
+.box_1{
+    background-color: var(--DarkBlue_);
+     width:30px;
+    height:30px; 
+    gap: 2rem;   
+    border-radius: 50%;
+    display:block; 
+    
+      
+    
+    
+}
+
+.box_2{
+    padding: 2rem;
+    margin: 1rem;
+}
+/* .box_2 h2{
+    
+    padding:2rem;
+    margin: 1rem;
+} */
+
+.box_2 p{
+    padding-right: 1rem;
+    padding-top: 1rem;
+    color: var(--MediumGrey);
+}
+
+.box_2 .box_list{
+    text-align: center;
+    gap: 2.5rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    display: flex;
+
+}
+
+.box_list div:nth-child(1){
+    background-color:var(--DarkBlue_);
+    padding: 1rem;
+    width:40px;
+    height: 40px;    
+    border-radius: 50%;
+}
+
+.box_list div:nth-child(2){
+    background-color:var(--DarkBlue_);
+    padding: 1rem;
+    width:40px;
+    height: 40px;    
+    border-radius: 50%;
+}
+
+.box_list div:nth-child(3){
+    background-color:var(--DarkBlue_);
+    padding: 1rem;
+    width:40px;
+    height: 40px;    
+    border-radius: 50%;
+}
+.box_list div:nth-child(4){
+    background-color:var(--DarkBlue_);
+    padding: 1rem;
+    width:40px;
+    height: 40px;    
+    border-radius: 50%;
+}
+.box_list div:nth-child(5){
+    background-color:var(--DarkBlue_);
+    padding: 1rem;
+    width:40px;
+    height: 40px;    
+    border-radius: 50%;
+    
+}
+
+.box_2 button{
+    background-color: var(--Orange);
+    border-radius: 1rem;
+    width: 90%;
+    
+    padding: 0.5rem;
+    color: var(--White);
+    margin-top: 1.5rem;
+    
+}
+
+
