@@ -48,7 +48,9 @@
     height:30px; 
     gap: 2rem;   
     border-radius: 50%;
-    display:block; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
     
       
     
@@ -86,6 +88,9 @@
     width:40px;
     height: 40px;    
     border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box_list div:nth-child(2){
@@ -94,6 +99,10 @@
     width:40px;
     height: 40px;    
     border-radius: 50%;
+     display:flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .box_list div:nth-child(3){
@@ -101,7 +110,9 @@
     padding: 1rem;
     width:40px;
     height: 40px;    
-    border-radius: 50%;
+    border-radius: 50%; display:flex;
+    justify-content: center;
+    align-items: center;
 }
 .box_list div:nth-child(4){
     background-color:var(--DarkBlue_);
@@ -109,6 +120,9 @@
     width:40px;
     height: 40px;    
     border-radius: 50%;
+     display:flex;
+    justify-content: center;
+    align-items: center;
 }
 .box_list div:nth-child(5){
     background-color:var(--DarkBlue_);
@@ -116,6 +130,9 @@
     width:40px;
     height: 40px;    
     border-radius: 50%;
+ display:flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -127,7 +144,9 @@
     padding: 0.5rem;
     color: var(--White);
     margin-top: 1.5rem;
-    
+     display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
